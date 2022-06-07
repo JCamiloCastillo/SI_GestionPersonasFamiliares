@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+header,nav,section,article,footer,figure{
+	display:block;
+}
+.limpiar{
+	clear:both;
+}
+body{
+	/*background:linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-moz-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-o-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-ms-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-webkit-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;*/
+	margin:120px 0;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	margin:6px;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFFFFF;
+	margin:6px;
+}
+.textopie{
+	color:#FFFFFF;
+	text-align:center;
+}
+a.enlacecpw{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.titulos-internos{
+	font-family:"Times New Roman", Times, serif;
+	font-size:59px;
+	color:#FFFFFF;
+	border-bottom:9px #FFFFFF solid;
+	display:block;
+}
+
+/*---- Maquetacion -----*/
+#contenedorProductos{
+	width: 1200px;
+	margin:0 auto;
+}
+#cabeceraProductos{
+	height:190px;
+	display:block;
+	background:url(../Img/logoGlossbagMenuINT.png) no-repeat center;
+}
+
+/*---- Menu principal -----*/
+#menuProductos{
+	height:150px;
+	margin-top:60px;
+	padding-left:175px;
+}
+#menuProductos ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menuProductos li a{
+	width:150px;
+	height:60px;
+	display:block;
+	background:url(../imagenes/fondo-boton.png) no-repeat;
+	background:linear-gradient(top,#7cbe6c,#6f3c99);
+	background:-moz-linear-gradient(top,#7cbe6c,#6f3c99);
+	background:-o-linear-gradient(top,#7cbe6c,#6f3c99);
+	background:-ms-linear-gradient(top,#7cbe6c,#6f3c99);
+	background:-webkit-linear-gradient(top,#7cbe6c,#6f3c99);
+	border-radius:10px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	margin-right:23px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.4s;
+	-moz-transition:-moz-transform 0.4s;
+	-ms-transition:-ms-transform 0.4s;
+	-o-transition:-o-transform 0.4s;
+	-webkit-transition:-webkit-transform 0.4s;
+}
+#menuProductos li a:hover{
+	transform:scale(1.2,1.2) rotate(15deg);
+	-moz-transform:scale(1.2, 1.2) rotate(15deg);
+	-o-transform:scale(1.2, 1.2) rotate(15deg);
+	-ms-transform:scale(1.2, 1.2) rotate(15deg);
+	-webkit-transform:scale(1.2, 1.2) rotate(15deg);
+}
+#menuProductos li a #iconoRegistrarProductos{
+	width:90px;
+	height:90px;
+	display:block;
+	background:url(../Rcs/iconRegistrar.png) no-repeat;
+	position:absolute;
+	left:45px;
+	top:20px;
+}
+#menuProductos li a:hover #iconoRegistrarProductos{
+	
+}
+
+#menuProductos li a #iconoRegistrarUsu{
+	width:90px;
+	height:90px;
+	display:block;
+	background:url(../Rcs/iconNuevoUsu.png) no-repeat;
+	position:absolute;
+	left:45px;
+	top:20px;
+}
+#menuProductos li a:hover #iconoRegistrarUsu{
+	
+}
+
+#menuProductos li a #iconoBuscarProductos{
+	width:90px;
+	height:90px;
+	display:block;
+	background:url(../Rcs/iconBuscar.png) no-repeat;
+	position:absolute;
+	left:45px;
+	top:20px;
+}
+#menuProductos li a:hover #iconoBuscarProductos{
+
+}
+
+#menuProductos li a #iconoModificarProductos{
+	width:74px;
+	height:59px;
+	display:block;
+	background:url(../Rcs/iconModificar.png) no-repeat;
+	position:absolute;
+	left:45px;
+	top:20px;
+}
+#menuProductos li a:hover #iconoModificarProductos{
+	
+}
+#menuProductos li a #iconoEliminarProductos{
+	width:72px;
+	height:59px;
+	display:block;
+	background:url(../Rcs/iconEliminar.png) no-repeat;
+	position:absolute;
+	left:48px;
+	top:20px;
+}
+#menuProductos li a:hover #iconoEliminarProductos{
+	
+}
+/*------- Menu 2---------*/ 
+#menu2{
+	height:100px;
+	margin-top:15px;
+	padding-left:466px;
+}
+
+#menu2 ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menu2 li a{
+	width:215px;
+	height:60px;
+	display:block;
+
+	background:linear-gradient(top,#54a33e, #54a33e);
+	background:-moz-linear-gradient(top,#54a33e, #54a33e);
+	background:-o-linear-gradient(top,#54a33e, #54a33e);
+	background:-ms-linear-gradient(top,#54a33e, #54a33e);
+	background:-webkit-linear-gradient(top,#54a33e, #54a33e);
+	border-radius:10px;
+	float:Left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	margin-right:23px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.4s;
+	-moz-transition:-moz-transform 0.4s;
+	-ms-transition:-ms-transform 0.4s;
+	-o-transition:-o-transform 0.4s;
+	-webkit-transition:-webkit-transform 0.4s;
+}
+#menu2 li a:hover{
+	transform:scale(1.2,1.2) rotate(15deg);
+	-moz-transform:scale(1.2, 1.2) rotate(15deg);
+	-o-transform:scale(1.2, 1.2) rotate(15deg);
+	-ms-transform:scale(1.2, 1.2) rotate(15deg);
+	-webkit-transform:scale(1.2, 1.2) rotate(15deg);
+}
+
+
+#menu2 li a #iconoLogin{
+	width:90px;
+	height:90px;
+	display:block;
+	background:url(../Rcs/iconSalir.png) no-repeat;
+	position:absolute;
+	left:80px;
+	top:20px;
+}
+#menu2 li a:hover #iconoLogin{
+	
+}

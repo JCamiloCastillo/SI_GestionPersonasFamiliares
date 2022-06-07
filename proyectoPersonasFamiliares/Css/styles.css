@@ -1,0 +1,78 @@
+
+
+.cabeceracontainer{
+  margin:20px auto;/*espacio que deja en blanco hacia arriba MARGEN*/
+  width:100%;/*tamaño ancho*/
+  height:110px;/*tamaño alto*/
+  background-color: #55b4b5;/*color de fondo del elemento*/ 
+  font-family:Montserrat;/*tipo de letra*/
+  font-size:26px;/*tamaño de la letra*/
+  border: 2px solid;/*tamaño del borde*/
+  border-color: pink;/*color del borde*/
+  -webkit-border-radius:15px 0/*bordes superiores*/ 15px 0/*bordes inferiores*/;
+
+}
+
+
+  #menu1{
+
+  list-style:none;
+  margin-top:8px;
+  margin-left:-10px;
+
+}
+li{
+
+  font-size:16px;/*tamaño de la letra*/
+  float:left;
+  
+  display:block;
+  padding:0 10px;/*largo de cada casilla*/
+  text-decoration:none;
+  text-align:center;
+  color:black ;/*color del texto*/
+
+}
+
+
+.ubicaciondatos{
+    margin-left: 380px;/*distancia dejada desde la izquieda*/
+    margin-top: 28px;/*distancia dejada desde arriba*/
+}
+
+
+
+.ubicaciondatos1{
+    margin-left: 800px;/*distancia dejada desde la izquieda*/
+    margin-top: -57px;/*distancia dejada desde arriba*/
+}
+
+.ubicaciondatos2{
+    margin-left: 1000px;/*distancia dejada desde la izquieda*/
+    margin-top: -60px;/*distancia dejada desde arriba*/
+}
+
+.backk{ background: #f8f8f8
+}
+
+fieldset{
+
+  background-color: #b0c4de;/*color de fondo del elemento*/ 
+  -webkit-border-radius:15px 0/*bordes superiores*/ 15px 0;/*bordes inferiores*/
+  border-color: lightcyan;
+
+
+} 
+
+.button {
+  background-color: #e7e7e7; color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

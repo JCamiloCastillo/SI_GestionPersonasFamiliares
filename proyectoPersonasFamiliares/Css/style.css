@@ -1,0 +1,27 @@
+body{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ubicaciondatos{
+		margin-left: 50%;
+		margin-top: -250px;
+}
+
+.cabeceracontainer{
+
+	margin:20px auto;/*espacio que deja en blanco hacia arriba MARGEN*/
+	width:700px;/*tamaño ancho*/
+	height:120px;/*tamaño alto*/	
+	border: 2px solid;/*tamaño del borde*/
+	-webkit-border-radius:15px 0/*bordes superiores*/ 15px 0/*bordes inferiores*/;
+
+}
+li
+{
+
+list-style: none;
+
+}
+

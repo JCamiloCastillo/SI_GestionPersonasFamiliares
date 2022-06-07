@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+header,nav,section,article,footer,figure{
+	display:block;
+}
+.limpiar{
+	clear:both;
+}
+body{
+	background:linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-moz-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-o-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-ms-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	background:-webkit-linear-gradient(top, #e8e6e8, #2EA9E4 600px, #2EA9E4 201px, #E585AE) repeat-x fixed;
+	margin:75px 0;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	margin:6px;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFFFFF;
+	margin:6px;
+}
+.textopie{
+	color:#FFFFFF;
+	text-align:center;
+}
+a.enlacecpw{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.titulos-internos{
+	font-family:"Times New Roman", Times, serif;
+	font-size:59px;
+	color:#FFFFFF;
+	border-bottom:9px #FFFFFF solid;
+	display:block;
+}
+
+/*---- Maquetacion -----*/
+#contenedor{
+	width: 1200px;
+	margin:0 auto;
+}
+#cabecera{
+	height:190px;
+	display:block;
+	background:url(../Img/logoGlossbagMenu.png) no-repeat center;
+}
+#piepagina{
+	height:112px;
+	margin-top:15px;
+}
+/*---- Menu principal -----*/
+#menu{
+	height:150px;
+	margin-top:135px;
+	padding-left:180px;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menu li a{
+	width:150px;
+	height:60px;
+	display:block;
+	background:url(../imagenes/fondo-boton.png) no-repeat;
+	background:linear-gradient(top,#48a5a5,#007095);
+	background:-moz-linear-gradient(top,#48a5a5,#007095);
+	background:-o-linear-gradient(top,#48a5a5,#007095);
+	background:-ms-linear-gradient(top,#48a5a5,#007095);
+	background:-webkit-linear-gradient(top,#48a5a5,#007095);
+	border-radius:10px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	margin-right:23px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.4s;
+	-moz-transition:-moz-transform 0.4s;
+	-ms-transition:-ms-transform 0.4s;
+	-o-transition:-o-transform 0.4s;
+	-webkit-transition:-webkit-transform 0.4s;
+}
+#menu li a:hover{
+	transform:scale(1.2,1.2) rotate(15deg);
+	-moz-transform:scale(1.2, 1.2) rotate(15deg);
+	-o-transform:scale(1.2, 1.2) rotate(15deg);
+	-ms-transform:scale(1.2, 1.2) rotate(15deg);
+	-webkit-transform:scale(1.2, 1.2) rotate(15deg);
+}
+#menu li a #iconoProveedor{
+	width:90px;
+	height:90px;
+	display:block;
+	background:url(../Rcs/iconProveedor.png) no-repeat;
+	position:absolute;
+	left:45px;
+	top:20px;
+}
+#menu li a:hover #iconoProveedor{
+	
+}
+#menu li a #iconoProductos{
+	width:90px;
+	height:90px;
+	display:block;
+	background:url(../Rcs/iconProductos.png) no-repeat;
+	position:absolute;
+	left:45px;
+	top:20px;
+}
+#menu li a:hover #iconoProductos{
+
+}
+#menu li a #iconoEmpleados{
+	width:74px;
+	height:59px;
+	display:block;
+	background:url(../Rcs/iconEmpleados.png) no-repeat;
+	position:absolute;
+	left:45px;
+	top:20px;
+}
+#menu li a:hover #iconoEmpleados{
+	
+}
+#menu li a #icono4{
+	width:72px;
+	height:59px;
+	display:block;
+	background:url(../imagenes/icono-consulta.png) no-repeat;
+	position:absolute;
+	left:39px;
+	top:20px;
+}
+#menu li a:hover #icono4{
+	
+}
+#menu li a #icono5{
+	width:63px;
+	height:60px;
+	display:block;
+	background:url(../imagenes/icono-actualizar.png) no-repeat;
+	position:absolute;
+	left:47px;
+	top:20px;
+}
+#menu li a:hover #icono5{
+	
+}
+#menu li a #icono6{
+	width:63px;
+	height:55px;
+	display:block;
+	background:url(../imagenes/icono-reporte.png) no-repeat;
+	position:absolute;
+	left:44px;
+	top:27px;
+}
+#menu li a:hover #icono6{
+}/*------- Menu 2---------*/ 
+#menu2{
+	height:100px;
+	margin-top:25px;
+	padding-left:465px;
+}
+
+#menu2 ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#menu2 li a{
+	width:215px;
+	height:60px;
+	display:block;
+	background:url(../imagenes/fondo-boton.png) no-repeat;
+	background:linear-gradient(top,#D358A8, #D358A8);
+	background:-moz-linear-gradient(top,#D358A8, #D358A8);
+	background:-o-linear-gradient(top,#D358A8, #D358A8);
+	background:-ms-linear-gradient(top,#D358A8, #D358A8);
+	background:-webkit-linear-gradient(top,#D358A8, #D358A8);
+	border-radius:10px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+	margin-right:23px;
+	padding-top:90px;
+	position:relative;
+	transition:transform 0.4s;
+	-moz-transition:-moz-transform 0.4s;
+	-ms-transition:-ms-transform 0.4s;
+	-o-transition:-o-transform 0.4s;
+	-webkit-transition:-webkit-transform 0.4s;
+}
+#menu2 li a:hover{
+	transform:scale(1.2,1.2) rotate(15deg);
+	-moz-transform:scale(1.2, 1.2) rotate(15deg);
+	-o-transform:scale(1.2, 1.2) rotate(15deg);
+	-ms-transform:scale(1.2, 1.2) rotate(15deg);
+	-webkit-transform:scale(1.2, 1.2) rotate(15deg);
+}
+
+
+#menu2 li a #iconoLogin{
+	width:90px;
+	height:90px;
+	display:block;
+	background:url(../Rcs/iconLogin.png) no-repeat;
+	position:absolute;
+	left:80px;
+	top:20px;
+}
+#menu2 li a:hover #iconoLogin{
+	
+}
+
+
